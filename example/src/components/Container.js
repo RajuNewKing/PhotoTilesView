@@ -1,5 +1,6 @@
 import React from 'react';
 import FeedView from './FeedView';
+import menuIcon from './menu512.png';
 import styles from './Container.css';
 
 class Container extends React.Component {
@@ -31,6 +32,10 @@ class Container extends React.Component {
         const {photos} = this.state;
         return (
             <div>
+                <div style={{display: 'flex', border: '1px solid grey'}}>
+                    <img src={menuIcon} style={{width: '50px', height: '50px', marginTop: '8px'}}/>
+                    <h2 style={{textAlign: 'center', marginLeft: '16px'}}>Oracle Admin</h2>
+                </div>
                 <FeedView photos={photos}/>
             </div>
         );
