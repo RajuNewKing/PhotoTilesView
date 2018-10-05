@@ -10,7 +10,7 @@ class Feed extends React.Component {
     constructor () {
         super ();
         this.state = {
-            columns : 4,
+            columns : 6,
             order : null
         }
     }

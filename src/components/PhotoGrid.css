@@ -16,7 +16,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     transition: all .5s linear;
-
+    
     cursor: pointer;
     box-shadow:0 10px 6px -6px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
@@ -26,7 +26,7 @@
 
 .imageGridItem a {
     display: none;
-    font-size: 100%;
+    
     color: #ffffff !important;
     text-align: center;
     margin: auto;
@@ -35,7 +35,6 @@
     left: 0;
     bottom: 0;
     right: 0;
-    height: 50px;
     cursor: pointer;
     text-decoration: none;
 }
@@ -51,8 +50,7 @@
 .imageWrapper:before {
     content: "";
     display: none;
-    height: 100%;
-    width: 100%;
+    
     position: absolute;
     top: 0;
     left: 0;

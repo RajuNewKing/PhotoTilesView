@@ -54,7 +54,7 @@ class PhotoGrid extends React.Component {
                      style={style}>
 					<a href="#">{photo.title}</a>
                 </div>
-                {this.isShowInfo() ? <InformationElement photo={photo}/> : null }
+                <div style={{ border: '1px solid black', padding: '4px', fontSize: '12px'}}>{photo.text}</div>
 
             </div>
         );

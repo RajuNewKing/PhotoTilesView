@@ -3,3 +3,45 @@ h1 small {
     color:#777;
     font-weight: 400;
 }
+li {
+    list-style: none;
+    
+    border: 1px solid grey;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+    color: white;
+}
+
+.hamburger-container {
+    position: absolute;
+    left: 200px;
+    top: 40px;
+    z-index: 200;
+    background: #FFA533;
+}
+
+a {
+    color: white;
+}
+
+.listview {
+    
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   { left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+   
+}
