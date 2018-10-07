@@ -22,7 +22,8 @@ li {
 }
 
 a {
-    color: white;
+    color: blue;
+    margin-bottom: 12px;
 }
 
 .listview {
